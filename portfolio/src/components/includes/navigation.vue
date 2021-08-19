@@ -1,28 +1,33 @@
 <template>
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" 
-              data-target="#navbarTogglerDemo03" 
-              aria-controls="navbarTogglerDemo03" 
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">Navbar</a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">
-                      Home 
-                    <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-                </ul>
-            </div>
-        </nav>
+    <div class="nav-custom">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+        <a class="navbar-brand" style="color: #ffa07a;" >Michael Jones Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+          <div class="navbar-nav" style = "color: #f48f50;">
+            <a class="nav-item nav-link"  style="color: #ffa07a;" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link"  style="color: #ffa07a;" href="#">Features</a>
+            <a class="nav-item nav-link"  style="color: #ffa07a;" ref="#">Pricing</a>
+          </div>
+    </div>
+</nav>
     </div>
 </template>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+    .navbar-nav {
+        margin-left: auto;
+        font-family: 'Poppins', sans-serif;
+    }
+    a{
+       /* color: rgb(3, 15, 31);*/
+       color: #f48f50;
+    }
+    .nav-custom{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
