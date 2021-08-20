@@ -29,17 +29,20 @@
                                     <h2>Nibble</h2>
                                 </div>
                                 <h5 class="card-subtitle mb-2">⭐Recipe Managemnet Software⭐</h5>
+                                <h6 class="card-subtitle mb-2" style="color:#ffa07a;">March 2021</h6>
                                 <hr>
                                 <div class="card-body">
                                     <p>
-                                        Donec sed odio dui. 
-                                  Etiam porta sem malesuada magna mollis euismod. 
-                          Nullam id dolor id nibh ultricies vehicula ut id elit. 
-                                Morbi leo risus, porta ac consectetur ac,sdsd 
+                                      Each user could log and access their own recipes through an account system. The implementation of a virtual pantry allowed
+                                      users to be able to see the contents of their physical pantrys from any web browser.
                                     </p>
-                          <button type="button" class="btn btn-outline-secondary">
+                                    <hr>
+                                    <p>
+                                      Asp.net, C#, Azzure database, SQL, MVC practices
+                                    </p>
+                          <!--<button type="button" class="btn btn-outline-secondary">
                             More
-                            </button>
+                            </button>-->
                                 </div>
                             </div>
                             <br>
@@ -47,17 +50,22 @@
                     <div class="col-md-4 d-flex align-items-stretch">
                             <div class="card">
                                 <div class="card-head">
-                                    <img alt="Vue logo" class="rounded-circle img-custome" src="https://i.pinimg.com/originals/4a/70/56/4a70563234301578c158dc142384a1c3.png">
-                                    <h2>web project</h2>
+                                    <img alt="Vue logo" class="rounded-circle img-custome" src="./../assets/cloud2.png">
+                                    <h2>FaceIT</h2>
                                 </div>
+                                 <h5 class="card-subtitle mb-2">⭐Winner of “Best use of Google Cloud by Google Cloud Platform and MLH"⭐</h5>
+                                 <h6 class="card-subtitle mb-2" style="color:#ffa07a;">January 2021</h6>
                                 <hr>
                                 <div class="card-body">
                                     <p>
-                                        Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
-                                        Nullam id dolor id nibh ultricies vehicula ut id elit. 
-                                        Morbi leo risus, porta ac consectetur sdsdsdsdssdsdsdsdsdsdsdssdsdsdsdsdsdsdsdssdsdsdsdsdsdsdsdsdsdsac, vestibulum at eros. Praesent commodo cursus magna.
+                                      The teams motive was to create an application to postively affect workers during covid. Utilizing google vision API and a front-faceing camerea we were able to track user emotion throughout virtual workdays.
+                                      After data collection mood related data is stored and presented to the user to show them how their mood ranges throughout the workday.
                                     </p>
-                                    <button type="button" class="btn btn-outline-secondary">More</button>
+                                    <hr>
+                                    <p>
+                                      Python, Matplotlib, Google firestone database, Google Vision API
+                                    </p>
+                                    <a href="https://devpost.com/software/faceit-j49gms" class="btn btn-outline-secondary">DevPost</a>
                                 </div>
                             </div>
                         <br>
@@ -65,17 +73,18 @@
                     <div class="col-md-4 d-flex align-items-stretch">
                         <div class="card">
                             <div class="card-head">
-                                <img alt="Vue logo" class="rounded-circle img-custome" src="https://cdn.mos.cms.futurecdn.net/wH5y2PkWhCxqKBje8rBp5e.jpg">
-                                <h2>web project</h2>
+                                <img alt="Vue logo" class="rounded-circle img-custome" src="./../assets/spotify2.png">
+                                <h2>Jukbox.live</h2>
                             </div>
+                            <h5 class="card-subtitle mb-2">⭐Multi-device song queueing envrionment⭐</h5>
+                            <h6 class="card-subtitle mb-2" style="color:#ffa07a;">Summer 2020</h6>
                             <hr>
                             <div class="card-body">
                                 <p>
-                                    Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
-                                    Nullam id dolor id nibh ultricies vehicula ut id elit. 
-                                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+                                  This website allowed users to create password protected rooms to allow other devices to join. Once joined, devices could queue songs using a searchbar for their songs to be played next in order.
+                                  Using Spotify developer API's the list of songs was then played on the room owners device. 
                                 </p>
-                                <button type="button" class="btn btn-outline-secondary">More</button>
+                                <a href="https://github.com/Spotify-Api-team/spotify-app/" class="btn btn-outline-secondary">Github</a>
                             </div>
                         </div>
                     </div>
