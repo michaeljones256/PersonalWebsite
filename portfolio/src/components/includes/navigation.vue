@@ -7,14 +7,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
           <div class="navbar-nav" style = "color: #f48f50;">
-            <a class="nav-item nav-link"  style="color: #ffa07a;" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link"  style="color: #ffa07a;" href="#">Features</a>
-            <a class="nav-item nav-link"  style="color: #ffa07a;" ref="#">Pricing</a>
+            <a class="nav-item nav-link"  style="color: #ffa07a;" href="#projects">Projects <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link"  style="color: #ffa07a;" href="#jobs">Job Experience</a>
           </div>
-    </div>
-</nav>
+       
+        </div>
+      </nav>
     </div>
 </template>
+
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
